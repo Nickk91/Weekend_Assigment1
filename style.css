@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1950px;
+    
+  }
+
+  body {
+    max-width: 1950px;
+    margin: 0 auto;}
+
+  /* Top banner */
+  .banner-box {
+    z-index: 999;
+    text-align: top;
+    top: 0; 
+    justify-content: center;
+    position: sticky;
+    width: 100%;
+    height: 55px;
+    background-image: radial-gradient(
+      54.97% 272.54% at 27.36% -134.72%,
+      rgba(108, 148, 255, 0.92) 0,
+      rgba(0, 0, 0, 0.92) 100%
+    );
+    color: white !important;
+  }
+  /*Banner box texet items (within a list) */
+  
+  .items li {
+    margin-top: -35px;
+    display: inline-block;
+    font-size: 25px; */
+    padding: 39px;
+
+  }
+  #fed{
+    font-weight: bold;
+  }
+  .items li a{
+    color: white;
+    size: 3px;
+    
+  }
+
+
+   /*Contains all the things that stay in the first page */
+
+  .container-first-page {
+    box-sizing: border-box;
+  
+    max-width: 2000px;
+
+  }
+
+  .embossed{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+  }
+ 
+
+
+
+  .centerpiece {
+    margin-top: 100px ;
+    margin-left: 50%;
+    
+}
+.centerpiece , h3, h5 {
+color: white;
+padding: 0.5%;
+
+
+}
+.centerpiece h5 {
+margin-left: -5em;
+
+}
+
+.specs{
+color: white;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .menu  {
+    margin-left: 40%;
+    
+  }
+  .menu-item {
+text-decoration: none;
+font-size: larger;
+color: whitesmoke;
+}
+.menu-item:hover {
+background-color: gray;
+}
+
+
+.specs-boxes{ 
+color: aliceblue;
+border-width: 2px;
+box-sizing: content-box;
+width: 100%;
+display: flex;
+flex-direction: row;
+position: relative;
+margin-top: 430px ;
+margin-left: -130px;
+
+
+
+
+}
+.box{
+
+height: 150px;
+width: 150px; /
+padding: 10px;
+text-align: center;
+
+
+margin: 0 1%; 
+
+
+}
+.box{}
+
+ul{
+list-style-type: none;
+}
+
+  
+
+
+.icon-menu{
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: -30px ;
+margin-left:+90%;
+color: white;
+  
+} 
+
+
+
+.menu li {
+display: inline-block;
+font-size: 15px;
+padding: 20px;
+}
+ 
+.button{
+width: 240px;
+height: 40px;
+text-align: center;
+border-radius: 3px;
+display: inline-block;
+border-style: solid;  }
+  
+.button-boxes{
+
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 100px ;
+margin-left:-510px;
+gap: 15px;} 
+
+  #inventory{
+    background-color: white;
+    border-color: white;
+    color: black;
+    margin-left: 30px;}
+  #order{
+    margin-left: 30px;
+    
+  }
+
+
+
+  #inventory:hover{
+    background-color: rgba(255, 255, 255, 0.856);
+    border-color:   rgba(255, 255, 255, 0.856);
+    color: black;
+    cursor: pointer; 
+  }
+  #Order:hover{
+  background-color: rgba(255, 255, 255, 0.822);
+  color: black;
+  border-color: white;
+  }
+  .smallprint{
+    box-sizing: border-box;
+    width: 800px;
+   
+    margin-top: 200px;
+    margin-left:-550px;
+    align-items: center;
+
+  }
+  .learn {
+    text-decoration: underline;
+  }
+
+  /*Second page style ////////////////////////////////////////////////////////////////*/
+  .container-second-page{
+    box-sizing: border-box;
+    
+    max-width: 2000px;
+  }
+
+  .page-2-pic{
+    margin-left: -600px;
+    width: 1420px;
+    z-index: -2;
+  }
+  .page2-background-box{
+    box-sizing: border-box;
+    width: 1907px;
+    /* width: 100%; */
+    height: 905px;
+    background-color: white;
+    margin-left: -964px;
+    margin-top: -895px;
+    z-index: -999;
+
+  }
+
+  #safety-features{
+    margin-left: -620px;
+    margin-top: -800px ;
+    z-index: 10;
+   
+
+  }
+  .saftey-box{
+    z-index: 10;
+    padding: 50px;
+    box-sizing: border-box;
+    font-weight: bold;
+   
+    color: black;     }
+
+    .inner-text{
+      color: black;
+    }
+
+    #design{
+      margin-top: 250px;
+      margin-left: -500px;
+      
+     
+    }
+
+    .safety-first{
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      
+    }
+    #importance{
+      margin-top: 30px ;
+     
+    }
+    .underlined{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #rating{
+      margin-top: 30px;
+      margin-left: -500px;
+    }
+    #five-star{
+      font-weight: bold;
+    }
+
+    #top{
+      margin-left: +200px;
+      margin-top: -35px;
+    }
+
+    #pick{
+      font-weight: bold;
+    }
+
+    .page-3-pic{
+      margin-left: -966px;
+      margin-top: 41px;
+
+    }
+
+    .box-pg3{
+      color: black;
+      padding: 50px;
+      margin-top: -350px;
+      margin-left: -900px;
+    }
+
